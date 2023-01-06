@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transion-border {
+  border: 2px solid rgba(128, 128, 128, 0.55);
+}
+
+.transion-border:hover {
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+.transion-card:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+  border-color: rgba(255, 0, 0, 0.1);
+}

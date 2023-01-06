@@ -1,0 +1,17 @@
+@import 'variables';
+
+@mixin transition($beforeColor, $afterColor) {
+  border: 0.5px;
+  border-color: $beforeColor;
+  :hover {
+    border-color: $afterColor;
+  }
+}
+
+.input {
+  @include transition(gray, red);
+}
+
+.card {
+  @include transition(gray, red);
+}
